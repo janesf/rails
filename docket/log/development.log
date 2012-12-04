@@ -1,0 +1,138 @@
+Connecting to database specified by database.yml
+  [1m[36m (70.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePatentcases (20091103025133)
+Migrating to CreateEntities (20091103032347)
+Migrating to AddEntityIdToPatentcase (20091103092609)
+Migrating to CreateUsers (20091103185957)
+Migrating to CreateReminders (20091103190157)
+Migrating to CreateUserReminders (20091103204053)
+Migrating to CreatePriorities (20091104003411)
+Migrating to AddNoteToPriority (20091104162810)
+Migrating to AddNoteToUserReminder (20091104162846)
+Migrating to CreateCountrycodes (20091104173702)
+Migrating to AddNoteToPriorities (20091104192606)
+Migrating to AddNoteToUserReminders (20091104192708)
+Migrating to AddInventorIdToPatentcases (20091104195642)
+Migrating to CreateInventors (20091104195859)
+Migrating to AddentityIdToInventors (20091104201800)
+Migrating to CreateInventorships (20091104222314)
+Migrating to AddIandpIdToInventorships (20091104222752)
+Migrating to CreateRules (20091104235606)
+Migrating to CreateTypes (20091105011357)
+Migrating to AddHashedPasswordToUsers (20091203035218)
+Migrating to AddStatusIdToReminders (20091204044352)
+Migrating to CreateRstatuses (20091204044535)
+Migrating to CreateUsercases (20091218035444)
+Migrating to AddDueDateToReminders (20100105010502)
+Migrating to RedesignRemindersJdi (20100105011444)
+Migrating to CreateRoles (20100218184520)
+Migrating to CreateEntityAccesses (20100218184633)
+Migrating to AddDescriptionAndAccessToRoles (20100218185429)
+Migrating to UserRoleChangeType (20100218190701)
+Migrating to UsersRenameRole (20100218213237)
+Migrating to CreateEntitiesUsersJoin (20100218234104)
+Migrating to CreatePatentcasesUsersJoin (20100219215114)
+Migrating to AddEntityIdToUsers (20100219215543)
+Migrating to FixReminderPatentcaseJoin (20100219234345)
+Migrating to FixReminderAactionAndRulePointers (20100221211337)
+  [1m[35m (0.6ms)[0m  select sqlite_version(*)
+  [1m[36m (0.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("aactions")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("countrycodes")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("entities")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("entities_users")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_entities_users_on_entity_id_and_user_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("entity_accesses")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("entitytypes")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("events")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("inventors")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("inventorships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("mytests")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("patentcases")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("patentcases_users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_patentcases_users_on_patentcase_id_and_user_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("priorities")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("refdttypes")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("reminders")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("roles")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("rstatuses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("rulereminderlinks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("rules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_rules_on_type_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_rules_on_rmdroffset')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("types")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("user_reminders")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("usercases")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (1.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePatentcases (20091103025133)
+Migrating to CreateEntities (20091103032347)
+Migrating to AddEntityIdToPatentcase (20091103092609)
+Migrating to CreateUsers (20091103185957)
+Migrating to CreateReminders (20091103190157)
+Migrating to CreateUserReminders (20091103204053)
+Migrating to CreatePriorities (20091104003411)
+Migrating to AddNoteToPriority (20091104162810)
+Migrating to AddNoteToUserReminder (20091104162846)
+Migrating to CreateCountrycodes (20091104173702)
+Migrating to AddNoteToPriorities (20091104192606)
+Migrating to AddNoteToUserReminders (20091104192708)
+Migrating to AddInventorIdToPatentcases (20091104195642)
+Migrating to CreateInventors (20091104195859)
+Migrating to AddentityIdToInventors (20091104201800)
+Migrating to CreateInventorships (20091104222314)
+Migrating to AddIandpIdToInventorships (20091104222752)
+Migrating to CreateRules (20091104235606)
+Migrating to CreateTypes (20091105011357)
+Migrating to AddHashedPasswordToUsers (20091203035218)
+Migrating to AddStatusIdToReminders (20091204044352)
+Migrating to CreateRstatuses (20091204044535)
+Migrating to CreateUsercases (20091218035444)
+Migrating to AddDueDateToReminders (20100105010502)
+Migrating to RedesignRemindersJdi (20100105011444)
+Migrating to CreateRoles (20100218184520)
+Migrating to CreateEntityAccesses (20100218184633)
+Migrating to AddDescriptionAndAccessToRoles (20100218185429)
+Migrating to UserRoleChangeType (20100218190701)
+Migrating to UsersRenameRole (20100218213237)
+Migrating to CreateEntitiesUsersJoin (20100218234104)
+Migrating to CreatePatentcasesUsersJoin (20100219215114)
+Migrating to AddEntityIdToUsers (20100219215543)
+Migrating to FixReminderPatentcaseJoin (20100219234345)
+Migrating to FixReminderAactionAndRulePointers (20100221211337)
+  [1m[35m (0.7ms)[0m  select sqlite_version(*)
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_list("aactions")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("countrycodes")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("entities")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("entities_users")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_entities_users_on_entity_id_and_user_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("entity_accesses")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("entitytypes")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("events")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("inventors")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("inventorships")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("mytests")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("patentcases")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("patentcases_users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_patentcases_users_on_patentcase_id_and_user_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("priorities")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("refdttypes")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("reminders")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("roles")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("rstatuses")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("rulereminderlinks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("rules")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_info('index_rules_on_type_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_info('index_rules_on_rmdroffset')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tasks")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("types")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("user_reminders")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("usercases")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
